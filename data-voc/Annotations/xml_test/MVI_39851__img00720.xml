@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<annotation>
+    <folder>VOC2007</folder>
+    <filename>img00720.jpg</filename>
+    <size>
+        <depth>3</depth>
+        <width>960</width>
+        <height>540</height>
+    </size>
+    <object>
+        <name>car</name>
+        <pose>Left</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>345</xmin>
+            <ymin>116</ymin>
+            <xmax>413</xmax>
+            <ymax>179</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>car</name>
+        <pose>Left</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>340</xmin>
+            <ymin>85</ymin>
+            <xmax>394</xmax>
+            <ymax>131</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>car</name>
+        <pose>Left</pose>
+        <truncated>0</truncated>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>453</xmin>
+            <ymin>67</ymin>
+            <xmax>489</xmax>
+            <ymax>106</ymax>
+        </bndbox>
+    </object>
+</annotation>

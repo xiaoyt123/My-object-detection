@@ -1,0 +1,34 @@
+
+[training]
+epochs = 300
+batch_size = 16
+accumulate = 4
+multi_scale = false 
+rectangular = false
+resume = false
+nosave = false
+notest = false
+evolve = false
+cache_images = false
+adam_optimizer = false
+single_class = false
+
+[paths]
+config = "/home/xiaoyt/My-object-detection/cfg/yolov3-tiny-3cls.cfg"
+data = "/home/xiaoyt/My-object-detection/data/dnf.data"
+weights = "/home/xiaoyt/My-object-detection/weights/yolov3-tiny.conv.15"
+bucket = ""
+results_name = ""
+
+[image_settings]
+img_size = [416, 416]
+multi_scale_range = [0.67, 1.5]  
+
+[hardware]
+device = "" 
+
+[debug]
+debug_variable = 0.0
+
+
+

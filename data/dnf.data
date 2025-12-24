@@ -1,0 +1,4 @@
+classes=4
+train= /home/xiaoyt/My-object-detection/data-voc/ImageSets/Main/train.txt
+valid= /home/xiaoyt/My-object-detection/data-voc/ImageSets/Main/val.txt
+names= /home/xiaoyt/My-object-detection/data/dnf.names

@@ -1,0 +1,27 @@
+
+[lr]
+lr0 = 0.01        
+lrf = -4.0       
+momentum = 0.937  
+weight_decay = 0.000484 
+
+
+[loss]
+giou = 3.54    
+cls = 37.4      
+cls_pw = 1.0   
+obj_pw = 1.0   
+
+
+[augmentation]
+hsv_h = 0.0138  
+hsv_s = 0.678  
+hsv_v = 0.36    
+
+degrees = 0.0  
+translate = 0.0 
+scale = 0.0     
+shear = 0.0     
+
+[train]
+iou_t = 0.225  
